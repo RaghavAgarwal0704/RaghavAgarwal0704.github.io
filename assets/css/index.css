@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+}
+
+.side-panel {
+    /* position: absolute;
+            width: 20%;
+            left: 1%;
+            top: 1%;
+            height: 98%; */
+    margin: 1em;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.card-body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#me {
+    border-radius: 50%;
+}
+
+.main-panel {
+    /* width: 77%;
+            height: 98%;
+            position: absolute;
+            right: 1%;
+            top: 1%; */
+    margin: 1em;
+}
+
+.icons8-instagram {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("../icons8-instagram.svg") 50% 50% no-repeat;
+    background-size: 100%;
+}
+
+.icons8-facebook {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("../icons8-facebook.svg") 50% 50% no-repeat;
+    background-size: 100%;
+}
+
+.nav-item {
+    float: left;
+    list-style: none;
+}
