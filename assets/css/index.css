@@ -49,6 +49,27 @@
     background: url("../icons8-facebook.svg") 50% 50% no-repeat;
     background-size: 100%;
 }
+.icons8-linkedin {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("../icons8-linkedin.svg") 50% 50% no-repeat;
+    background-size: 100%;
+}
+.icons8-github {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("../icons8-github.svg") 50% 50% no-repeat;
+    background-size: 100%;
+}
+.icons8-whatsapp {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("../icons8-whatsapp.svg") 50% 50% no-repeat;
+    background-size: 100%;
+}
 
 .nav-item {
     float: left;
