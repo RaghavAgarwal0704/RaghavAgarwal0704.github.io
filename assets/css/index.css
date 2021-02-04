@@ -74,4 +74,5 @@
 .nav-item {
     float: left;
     list-style: none;
+    margin:1em;
 }
