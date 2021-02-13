@@ -8,6 +8,7 @@ a{
 }
 .side-panel {
     margin: 1em;
+    position:sticky;
 }
 
 .card-header {
