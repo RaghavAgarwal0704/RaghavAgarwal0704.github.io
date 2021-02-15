@@ -12,6 +12,10 @@
 </head>
 
 <body>
+    
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+    </div>  
     <div class="row mx-0">
         <div class="col-12 col-md-3 px-0">
             <div class="card mb-3 side-panel">
@@ -35,9 +39,6 @@
                             </li>
                             <li class="nav-item">
                                  <a href="https://wa.me/+918791161621" target="_blank"><div class="icons8-whatsapp"></div></a>
-                            </li>
-                            <li class="nav-item">
-                                 <a href="mailto:agarwal.raghav0704@gmail.com" target="_blank"><div class="icons8-mail"></div></a>
                             </li>
                         </ul>
                     </div>
@@ -74,43 +75,42 @@
                 </div><hr>
                 <div id="resume">
                     <h1>Resume</h1>
+                    <a href="./assets/Raghav_Agarwal resume.pdf" download target="_blank"><div class="download"></div></a>
                 </div><hr>
                 <div id="gallery">
                     <h1>Gallery</h1>
                 </div><hr>
                 <div id="contact">
-                    <h1>Contact</h1>
-                    <P>+91-8791161621</P>
-                    <p>Interested in hiring me for your project or just want to say hi ? You can fill in the contact form below or 
-                        <a  style="color:blue" href="mailto:agarwal.raghav0704@gmail.com">mail </a>me  
-                    </p>
-                    <p>Want to get connected? Follow me on the social channels below.</p>
-                    <div>
-                        <ul>
-                            <li class="nav-item">
-                                 <a href="https://github.com/RaghavAgarwal0704" target="_blank"><div class="icons8-github"></div></a>
-                            </li>
-                            <li class="nav-item">
-                                 <a href="https://www.linkedin.com/in/raghav-agarwal-62a303169/" target="_blank"><div class="icons8-linkedin"></div></a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="https://www.instagram.com/_.raghav_agarwal._/" target="_blank"><div class="icons8-instagram"></div></a>
-                           </li>
-                            <li class="nav-item">
-                                 <a href="https://www.facebook.com/raghav.agarwal.33046736" target="_blank"><div class="icons8-facebook"></div></a>
-                            </li>
-                            <li class="nav-item">
-                                 <a href="https://wa.me/+918791161621" target="_blank"><div class="icons8-whatsapp"></div></a>
-                            </li>
-                        </ul>
+                    <h1>Get in touch</h1>
+                    <p>Interested in hiring me for your project or just wanna say hi ? Contact me at:</p>
+                    <div id="home">
+                        <div class="home"></div>
+                        55, Engineers Enclave
+                        Phase 1, GMS Road
+                        Dehradun
                     </div><br>
-                    <h2>Get in touch</h2>
-
-
+                    <div id="phone">
+                        <div class="phone"></div>
+                        +91-8791161621
+                    </div><br>
+                    <div id="mail">
+                        <div class="mail"></div>
+                        <a href="maito:agarwal.raghav0704@gmail.com">agarwal.raghav0704@gmail.com</a>
+                    </div><br><br>
+                    <p>Want to get connected? Follow me on the social channels.</p>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+        window.onscroll = function() {myFunction()};
+        function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
+    </script>
 </body>
 
 </html>
