@@ -79,6 +79,14 @@ a{
     background: url("../icons8-whatsapp.svg") 50% 50% no-repeat;
     background-size: 100%;
 }
+.icons8-mail {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("../icons8-mail.svg") 50% 50% no-repeat;
+    background-size: 100%;
+}
+
 
 .nav-item {
     float: left;
