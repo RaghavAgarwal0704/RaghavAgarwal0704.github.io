@@ -8,17 +8,8 @@ a{
 }
 .side-panel {
     margin: 1em;
-    /* height:auto;
-    width:22em;
-    position: fixed;
-    overflow-x: hidden;
-    z-index: 1;
-    overflow: auto;
-    position: -webkit-sticky;
-    position: sticky; */
     width: 22em;
     height: auto; 
-    /* min-height: 200px; */
     overflow : auto;
     position : -webkit-sticky;
     position : sticky;
@@ -124,4 +115,11 @@ a{
     height: 1.5vh;
     background: #3b3e40;
     width: 0%;
+}
+.img-event{
+    width:100vh;
+    height:60vh;
+}
+.img-event:hover{
+    opacity:0.5;
 }
