@@ -8,7 +8,21 @@ a{
 }
 .side-panel {
     margin: 1em;
-    position:sticky;
+    /* height:auto;
+    width:22em;
+    position: fixed;
+    overflow-x: hidden;
+    z-index: 1;
+    overflow: auto;
+    position: -webkit-sticky;
+    position: sticky; */
+    width: 22em;
+    height: auto; 
+    /* min-height: 200px; */
+    overflow : auto;
+    position : -webkit-sticky;
+    position : sticky;
+    top : 5%;
 }
 
 .card-header {
