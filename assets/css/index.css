@@ -1,6 +1,7 @@
 * {
     margin: 0;
     text-decoration:none;
+    transition: all 0.2s ease;
 }
 a{
     text-decoration:none;
@@ -119,7 +120,41 @@ a{
 .img-event{
     width:100vh;
     height:60vh;
+    text-align:center;
 }
 .img-event:hover{
     opacity:0.5;
+}
+#projects{
+    text-align: center;
+}
+#about{
+    text-align: center;
+}
+.icons8-instagram:hover{
+    opacity:0.8;
+}
+.icons8-facebook:hover{
+    opacity:0.8;
+}
+.icons8-linkedin:hover{
+    opacity:0.8;
+}
+.icons8-github:hover{
+    opacity:0.8;
+}
+.icons8-whatsapp:hover{
+    opacity:0.8;
+}
+.phone:hover{
+    opacity:0.8;
+}
+.mail:hover{
+    opacity:0.8;
+}
+.home:hover{
+    opacity:0.8;
+}
+.active{
+    color:white;
 }
