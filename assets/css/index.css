@@ -7,6 +7,9 @@ a{
     text-decoration:none;
     
 }
+a:hover{
+    text-decoration:none;
+}
 .side-panel {
     margin: 1em;
     width: 22em;
@@ -29,6 +32,10 @@ a{
 
 #me {
     border-radius: 50%;
+}
+
+#about{
+    font-size:larger;
 }
 
 .main-panel {
@@ -124,12 +131,6 @@ a{
 }
 .img-event:hover{
     opacity:0.5;
-}
-#projects{
-    text-align: center;
-}
-#about{
-    text-align: center;
 }
 .icons8-instagram:hover{
     opacity:0.8;
