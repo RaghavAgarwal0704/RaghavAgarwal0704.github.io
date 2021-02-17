@@ -10,6 +10,9 @@ a{
 a:hover{
     text-decoration:none;
 }
+h3{
+    color:blue;
+}
 .side-panel {
     margin: 1em;
     width: 22em;
@@ -158,4 +161,19 @@ a:hover{
 }
 .active a{
     color:white;
+}
+#frontend img{
+    width: 40px;
+    height:40px;
+}
+
+#backend img{
+    width: 40px;
+    height:40px;
+}
+#skills .nav-item{
+    margin-right:5em;
+}
+img:hover{
+    opacity:0.5;
 }
