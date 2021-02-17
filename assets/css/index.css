@@ -1,14 +1,26 @@
 * {
     margin: 0;
+    text-decoration:none;
+    transition: all 0.2s ease;
 }
-
+a{
+    text-decoration:none;
+    
+}
+a:hover{
+    text-decoration:none;
+}
+h3{
+    color:blue;
+}
 .side-panel {
-    /* position: absolute;
-            width: 20%;
-            left: 1%;
-            top: 1%;
-            height: 98%; */
     margin: 1em;
+    width: 22em;
+    height: auto; 
+    overflow : auto;
+    position : -webkit-sticky;
+    position : sticky;
+    top : 5%;
 }
 
 .card-header {
@@ -25,12 +37,11 @@
     border-radius: 50%;
 }
 
+#about{
+    font-size:larger;
+}
+
 .main-panel {
-    /* width: 77%;
-            height: 98%;
-            position: absolute;
-            right: 1%;
-            top: 1%; */
     margin: 1em;
 }
 
@@ -49,8 +60,120 @@
     background: url("../icons8-facebook.svg") 50% 50% no-repeat;
     background-size: 100%;
 }
-
+.icons8-linkedin {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("../icons8-linkedin.svg") 50% 50% no-repeat;
+    background-size: 100%;
+}
+.icons8-github {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("../icons8-github.svg") 50% 50% no-repeat;
+    background-size: 100%;
+}
+.icons8-whatsapp {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("../icons8-whatsapp.svg") 50% 50% no-repeat;
+    background-size: 100%;
+}
+.download{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("../download.svg") 50% 50% no-repeat;
+    background-size: 100%;
+}
+.home{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("../icons8-home.svg") 50% 50% no-repeat;
+    background-size: 100%;
+}
+.phone{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("../phone.svg") 50% 50% no-repeat;
+    background-size: 100%;
+}
+.mail{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("../icons8-mail.svg") 50% 50% no-repeat;
+    background-size: 100%;
+}
 .nav-item {
     float: left;
     list-style: none;
+    margin:0.3em;
+}
+.progress-container {
+    position:fixed;
+    top:0;
+    z-index:1;
+    width: 100%;
+    height: 1.5vh;
+    background:transparent;
+} 
+.progress-bar {
+    height: 1.5vh;
+    background: #3b3e40;
+    width: 0%;
+}
+.img-event{
+    width:100vh;
+    height:60vh;
+    text-align:center;
+}
+.img-event:hover{
+    opacity:0.5;
+}
+.icons8-instagram:hover{
+    opacity:0.8;
+}
+.icons8-facebook:hover{
+    opacity:0.8;
+}
+.icons8-linkedin:hover{
+    opacity:0.8;
+}
+.icons8-github:hover{
+    opacity:0.8;
+}
+.icons8-whatsapp:hover{
+    opacity:0.8;
+}
+.phone:hover{
+    opacity:0.8;
+}
+.mail:hover{
+    opacity:0.8;
+}
+.home:hover{
+    opacity:0.8;
+}
+.active a{
+    color:white;
+}
+#frontend img{
+    width: 40px;
+    height:40px;
+}
+
+#backend img{
+    width: 40px;
+    height:40px;
+}
+#skills .nav-item{
+    margin-right:5em;
+}
+img:hover{
+    opacity:0.5;
 }
