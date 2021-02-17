@@ -4,6 +4,7 @@
 <head>
     <title>Raghav</title>
     <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/sketchy/bootstrap.min.css">
@@ -22,7 +23,7 @@
             <div class="card mb-3 side-panel">
                 <h3 class="card-header">Raghav Agarwal</h3>
                 <div class="card-body">
-                    <img src="./assets/raghav.jpg" id="me" width="90%"><br>
+                    <img src="./assets/raghav.jpg" id="me" width="90%" class="img-fluid"><br>
                     <p class="lead">Hi, my name is Raghav Agarwal. Welcome to my personal website !!</p>
                     <div>
                         <ul>
@@ -44,7 +45,7 @@
                         </ul>
                     </div>
                     <div>
-                        <ul class="list-group list-group-flush">
+                        <ul class="list-group list-group-flush" id="side-nav">
                             <li class="list-group-item list-group-item-action active"><a href="#about">About me</a></li>
                             <li class="list-group-item list-group-item-action"><a href="#projects">My Projects</a></li>
                             <li class="list-group-item list-group-item-action"><a href="#resume">Resume</a></li>
@@ -69,13 +70,13 @@
                     <h1>Projects</h1><br><br>
                     <h3><a style="color:blue" href="http://info.vit.ac.in/ASCE2021/" target="_blank">ASCE VIT Official website</a></h3>
                     <p>The official website of ASCE VIT Chapter using ReactJS</p>
-                    <img src="./assets/asce.PNG" alt="asce" class="img-event"><br><br><br><br><br>
+                    <img src="./assets/asce.PNG" alt="asce" class="img-fluid img-event"><br><br><br><br><br>
                     <h3><a style="color:blue" href="https://github.com/bit-Chor/feedIndia" target="_blank">FeedIndia</a></h3>
                     <p>Food donation website using NodeJS and MongoDB</p>
-                    <img src="./assets/feedindia.png" alt="feedindia" class="img-event"><br><br><br><br><br>
+                    <img src="./assets/feedindia.png" alt="feedindia" class="img-fluid img-event"><br><br><br><br><br>
                     <h3><a style="color:blue" href="http://edutrackerr.herokuapp.com/" target="_blank">EduTracker</a></h3>
                     <p>A Learning Management System using NodeJS and EJS</p>
-                    <img src="./assets/edutracker.PNG" alt="edutracker" class="img-event">
+                    <img src="./assets/edutracker.PNG" alt="edutracker" class="img-fluid img-event">
                 </div><br><br><hr><br>
                 <div id="resume">
                     <h1>Resume</h1>
@@ -114,6 +115,10 @@
             var scrolled = (winScroll / height) * 100;
             document.getElementById("myBar").style.width = scrolled + "%";
         }
+        $("#side-nav li").on("click",function(){
+        $("#side-nav li").removeClass("active");
+        $(this).addClass("active");
+});
     </script>
 </body>
 
