@@ -1,26 +1,24 @@
 * {
     margin: 0;
-    text-decoration:none;
+    text-decoration: none;
     transition: all 0.2s ease;
 }
-a{
-    text-decoration:none;
-    
+a {
+    text-decoration: none;
 }
-a:hover{
-    text-decoration:none;
+a:hover {
+    text-decoration: none;
 }
-h3{
-    color:blue;
+h3 {
+    color: blue;
 }
 .side-panel {
     margin: 1em;
-    width: 22em;
-    height: auto; 
-    overflow : auto;
-    position : -webkit-sticky;
-    position : sticky;
-    top : 5%;
+    height: auto;
+    overflow: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5%;
 }
 
 .card-header {
@@ -37,8 +35,8 @@ h3{
     border-radius: 50%;
 }
 
-#about{
-    font-size:larger;
+#about {
+    font-size: larger;
 }
 
 .main-panel {
@@ -81,28 +79,28 @@ h3{
     background: url("../icons8-whatsapp.svg") 50% 50% no-repeat;
     background-size: 100%;
 }
-.download{
+.download {
     display: inline-block;
     width: 40px;
     height: 40px;
     background: url("../download.svg") 50% 50% no-repeat;
     background-size: 100%;
 }
-.home{
+.home {
     display: inline-block;
     width: 40px;
     height: 40px;
     background: url("../icons8-home.svg") 50% 50% no-repeat;
     background-size: 100%;
 }
-.phone{
+.phone {
     display: inline-block;
     width: 40px;
     height: 40px;
     background: url("../phone.svg") 50% 50% no-repeat;
     background-size: 100%;
 }
-.mail{
+.mail {
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -112,68 +110,78 @@ h3{
 .nav-item {
     float: left;
     list-style: none;
-    margin:0.3em;
+    margin: 0.3em;
 }
 .progress-container {
-    position:fixed;
-    top:0;
-    z-index:1;
+    position: fixed;
+    top: 0;
+    z-index: 1;
     width: 100%;
     height: 1.5vh;
-    background:transparent;
-} 
+    background: transparent;
+}
 .progress-bar {
     height: 1.5vh;
     background: #3b3e40;
     width: 0%;
 }
-.img-event{
-    width:100vh;
-    height:60vh;
-    text-align:center;
+.img-event {
+    width: 100vh;
+    /* height: 60vh; */
+    text-align: center;
 }
-.img-event:hover{
-    opacity:0.5;
+.img-event:hover {
+    opacity: 0.5;
 }
-.icons8-instagram:hover{
-    opacity:0.8;
+.icons8-instagram:hover {
+    opacity: 0.8;
 }
-.icons8-facebook:hover{
-    opacity:0.8;
+.icons8-facebook:hover {
+    opacity: 0.8;
 }
-.icons8-linkedin:hover{
-    opacity:0.8;
+.icons8-linkedin:hover {
+    opacity: 0.8;
 }
-.icons8-github:hover{
-    opacity:0.8;
+.icons8-github:hover {
+    opacity: 0.8;
 }
-.icons8-whatsapp:hover{
-    opacity:0.8;
+.icons8-whatsapp:hover {
+    opacity: 0.8;
 }
-.phone:hover{
-    opacity:0.8;
+.phone:hover {
+    opacity: 0.8;
 }
-.mail:hover{
-    opacity:0.8;
+.mail:hover {
+    opacity: 0.8;
 }
-.home:hover{
-    opacity:0.8;
+.home:hover {
+    opacity: 0.8;
 }
-.active a{
-    color:white;
+.active a {
+    color: white;
 }
-#frontend img{
+#frontend img {
     width: 40px;
-    height:40px;
+    height: 40px;
 }
 
-#backend img{
+#backend img {
     width: 40px;
-    height:40px;
+    height: 40px;
 }
-#skills .nav-item{
-    margin-right:5em;
+#skills .nav-item {
+    margin-right: 5em;
 }
-img:hover{
-    opacity:0.5;
+img:hover {
+    opacity: 0.5;
+}
+.text-align-center {
+    text-align: center;
+}
+#home,
+#mail,
+#phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
